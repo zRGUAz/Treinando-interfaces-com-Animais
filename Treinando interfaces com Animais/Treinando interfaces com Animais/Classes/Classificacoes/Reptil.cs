@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Treinando_interfaces_com_Animais.Classes.Classificacoes
 {
-    public class Reptil : Animal
+    public abstract class Reptil : Animal
     {
         public bool TemEscamas { get; set; }
         public bool TemCasco { get; set; }

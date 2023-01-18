@@ -61,6 +61,7 @@ namespace Treinando_interfaces_com_Animais.Classes.Animais
             Console.WriteLine();
 
             Movimentar();
+            Ciscar();
             Comunicar();
             Alimentar();
             Voar();

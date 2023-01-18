@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Treinando_interfaces_com_Animais.Classes.Classificacoes
 {
-    public class Mamifero : Animal
+    public abstract class Mamifero : Animal
     {
         public int QtdDeMamas { get; set; }
         public bool Pelos { get; set; }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Treinando_interfaces_com_Animais.Classes.Classificacoes
 {
-    public class Animal
+    public abstract class Animal
     {
         public string Nome { get; set; }
         public DateTime DataDeNascimento { get; set; }
